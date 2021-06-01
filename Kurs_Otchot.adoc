@@ -689,7 +689,7 @@ image::photos/ADC.png[]
 
 * *Config()*: устанавливаем необходимую по ТЗ характеристики: разрядность и время сэмплирования;
 
-* *SetChannels(in channelNum1, channelNum2)*
+* *SetChannels(in channelNum1)*
 прописывает в SQR1:L 1 бит, и прописывает первый канал в SQR3:SQ1, и второй в SQR3:SQ2.
 
 * *MeasureAndGetValue()* - хранит две переменные с полученными с каналов сигналами.
